@@ -50,7 +50,7 @@ public class Code {
             // wait 30 seconds and close the browser after that
             System.out.println("Sleeping 30 sec");
             Thread.sleep(30000);
-            Runtime.getRuntime().exec("taskkill /F /IM Brave.exe");
+            Runtime.getRuntime().exec("taskkill /F /IM chrome.exe");
 
         } catch (InterruptedException e) {
             System.err.println("Exceção...");
