@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="nosfon-autologin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/nosfon_autologin_jar</output-path>
+    <root id="archive" name="nosfon-autologin.jar">
+      <element id="module-output" name="nosfon-autologin" />
+    </root>
+  </artifact>
+</component>
