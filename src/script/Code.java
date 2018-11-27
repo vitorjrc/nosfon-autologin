@@ -85,7 +85,7 @@ public class Code {
                         // in case we aren't able to connect to serjo for more than 2 minutes (6 cycles)
                         if (nrAttempts > 36) nrAttempts = 0;
                         //System.out.println("Ligar à net serjo");
-                        Runtime.getRuntime().exec("netsh wlan connect ssid=Queres net? Paga! name=Queres net? Paga! interface=\"Wi-Fi 3\"");
+                        Runtime.getRuntime().exec("netsh wlan connect ssid=\"Queres net? Paga!\" name=\"Queres net? Paga!\" interface=\"Wi-Fi 3\"");
                         // execBrowser(); -> no need to open browser since we dont need to login in a webpage
                     }
                 }
